@@ -1,0 +1,52 @@
+<html>
+<head>
+   <title> The puzzle game</title>
+</head>
+<h1>
+    Solve the puzzle challenge!
+</h1>
+<style>
+     
+        #myVideo {
+           position: fixed;
+           right: 0;
+           bottom: 0;
+           min-width: 100%;
+           min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #35910a;
+  width: 100%;
+  padding: 20px;
+  font-weight: 200px;
+}
+</style>
+<body>
+   
+    <video autoplay muted loop id="myVideo">
+        <source src="Video1.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <button onclick="alert('Hi')">Click Here</button>
+        <h2>
+            The Game Begins here:
+        </h2>
+    <h3>Click in which format the puzzle shall be displayed:</h3>
+    <button onclick="alert('You Go For 3x3')">Click Here For 3x3 puzzle</button>
+    <a href="game1.html">Click Here To Go To 3x3</a>
+    <br><br><br>
+    <button onclick="alert('You Go For 5x5')">Click Here For 5x5 puzzle</button>
+    <a href="game2.html">Click Here To Go To 5x5</a>
+    <br><br><br>
+    <button onclick="alert('You Go For 9x9')">Click Here For 9x9 puzzle</button>
+    <a href="game1.html">Click Here To Go To 9x9</a>
+    <br><br><br>
+    <script type="text/javascript">         
+       alert("The game loaded!");         
+      </script>
+      </div>
+</body>
+</html>
